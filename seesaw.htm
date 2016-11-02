@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/seesew.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>CSS Stickman Seesaw Acrobats</h1>
+<div class="seesaw">
+	<div class="seesaw-top">
+		<div class="man manleft">
+			<div class="man-upper">
+				<div class="man-lower"></div>
+			</div>
+		</div>
+		<div class="loadbox">LOADING</div>
+		<div class="man manright">
+			<div class="man-upper">
+				<div class="man-lower"></div>
+			</div>
+		</div>
+	</div>
+	<div class="seesaw-bottom"></div>
+</div>
+<br><br>
+<!--<form oninput="amount.value=weight.value+'%'">
+    <label for "weight">Size: </label>
+    <input type="range" id="weight" min="30" value="50" max="100" step="1"><output name="amount" for="weight">50%</output>
+ </form>-->
+<h2>Could be uses as preloader GFX. (Try hovering over the seesaw)</h2>
+<br><br>
+<h2>Like it? - Check out my other <a href="http://codepen.io/pmk/popular/">Pens</a></h2>
+</body>
+   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+jQuery( document ).ready(function( $ ) {
+	$('#weight').on('change input',function(e) {
+		$('.seesaw').css('font-size',$(this).val()+'%');
+	})
+});
+</script>
+</html>
