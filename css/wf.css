@@ -89,7 +89,7 @@ background:#595959;
 background-image:url(../images/welcome_header_bludot.png);
 background-repeat:no-repeat;
 
-background-size:70%;
+background-size:100%;
 background-position:-100px 100%;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.69);
 border-bottom:solid 1px #595959;
@@ -418,8 +418,8 @@ padding:20px 0;
 		
 	.welcome header {
 		min-height:240px;  
-		background-size:80%; 
-		background-position:-160px 100%;
+		background-size:100%; 
+		background-position:-60px 100%;
 		}
 		
 	.welcome header h1 {font-size:1.5em; text-align:right;}
@@ -430,6 +430,8 @@ padding:20px 0;
 	
 	.circlebase {height:10px; }
 	.checklist .rightSide {	margin-top:3em;}
+
+	.checklist .success {width: 100%;}
 	}
 
 /* Medium and up */
@@ -442,9 +444,11 @@ padding:20px 0;
 	footer .copy {padding-top:1em; padding-left:1em;}
 	
 	.welcome header {
-		background-size:80%;
-		background-position:-130px 100%;
+		background-size:100%;
+		background-position:-50px 100%;
 	}
+
+	.welcome header h1 {padding-top:40px;}
 	
 	.responsive-circle div h2{
 		font-size:4em;
